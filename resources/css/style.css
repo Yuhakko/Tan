@@ -1,21 +1,37 @@
 body{
-  padding: 0px;
-  margin: 0px;
-}
-
-nav{
-  padding-top: 0px;
-  position: fixed;
-  width: 100%;
-  height: 32px;
   background-color: #433D3D;
   color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 nav a{
   color: white;
   text-decoration: none;
+}
+
+.title{
+  padding-top: 1em;
+  font-family: marzo-w00-regular, fantasy;
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25em;
+}
+
+h2{
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.main img{
+  border: 0.5em solid white;
+}
+
+footer{
+  text-align: center;
+  font-size: 0.75em;
 }
