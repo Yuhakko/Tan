@@ -8,6 +8,9 @@ nav a{
   text-decoration: none;
 }
 
+.dropdown-menu:hover {display: inline-block;}
+
+
 .title{
   padding-top: 1em;
   font-family: marzo-w00-regular, fantasy;
