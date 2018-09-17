@@ -49,6 +49,7 @@ a:hover{
   padding-top: 3em;
   font-family: marzo-w00-regular, fantasy;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .main{
@@ -68,7 +69,10 @@ h2{
   border: 0.5em solid white;
 }
 
-footer{
+footer p{
+  bottom: 0rem;
   text-align: center;
+  width: 100%;
   font-size: 0.75em;
+  vertical-align:bottom;
 }
